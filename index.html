@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Barber Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      width: 100%;
+      max-width: 360px;
+      box-shadow: 0 10px 20px rgba(0,0,0,.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      background: black;
+      color: white;
+      cursor: pointer;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Book Appointment</h1>
+
+    <input placeholder="Your name" />
+    <input placeholder="Phone number" />
+
+    <input type="date" />
+
+    <select>
+      <option>Select a time</option>
+      <option>11:00 AM</option>
+      <option>12:00 PM</option>
+      <option>1:00 PM</option>
+      <option>2:00 PM</option>
+      <option>3:00 PM</option>
+      <option>4:00 PM</option>
+      <option>5:00 PM</option>
+      <option>6:00 PM</option>
+      <option>7:00 PM</option>
+    </select>
+
+    <button>Book</button>
+  </div>
+</body>
+</html>
